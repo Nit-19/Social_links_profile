@@ -1,0 +1,79 @@
+* {
+  background-color: rgb(9, 9, 9) !important;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h6 {
+  color: rgb(142, 237, 0) !important;
+  margin-bottom: 40px !important;
+  font-size: 15px !important;
+}
+
+p {
+  font-size: 15px !important;
+  margin: 2 !important;
+}
+
+.card {
+  background-color: rgb(31, 30, 30) !important;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 80px;
+}
+
+.image {
+    background-color: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card *{
+  background: none !important;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  width: 100%;
+  padding: 0 10px;
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons > .btn  {
+  background-color: rgb(59, 56, 56) !important;
+  width: 100%;
+  margin-bottom: 8px;
+  padding:  10px;
+  font-weight: 600 !important;
+}
